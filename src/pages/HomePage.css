@@ -1,0 +1,14 @@
+.homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 64px);
+  width: 100vw;
+}
+
+.homepage-container h1 {
+  background: linear-gradient(rgb(255, 0, 255), red);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 72px;
+}

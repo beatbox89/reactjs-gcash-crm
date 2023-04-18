@@ -1,0 +1,145 @@
+.customer-container {
+  margin-bottom: 16px;
+  padding: 0 16px;
+}
+
+.customer-container h1 {
+  width: 100%;
+  padding: 32px;
+  background: #2a2a42;
+}
+
+.customer-container h1 p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  max-width: 1150px;
+  margin: 32px auto;
+  color: red;
+  background: rgba(255, 0, 0, 0.1);
+  border-radius: 16px;
+  border: 1px solid red;
+}
+
+.customer-container h2 {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  transition: all ease-in-out 250ms;
+}
+
+.customer-container h2 button {
+  outline: none;
+  height: 32px;
+  margin: 2px;
+  background: #2a2a42;
+  border-radius: 10px 0 0 0;
+}
+
+.customer-container h2 p {
+  text-align: center;
+  font-size: 24px;
+  min-width: 180px;
+  padding: 0 8px;
+  background: #2a2a42;
+  border-radius: 5px 10px 0 0;
+}
+
+.customer-container h2 svg {
+  width: 32px;
+  color: #ffffff7c;
+  padding: 4px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: all ease-in-out 150ms;
+}
+
+.customer-container h2 svg:hover {
+  padding: 5px;
+}
+
+.customer-container table {
+  /* border-collapse: collapse; */
+  border: none;
+  width: 100%;
+  background: #2a2a42;
+}
+
+.customer-container thead {
+  background: #bbbbbb30;
+}
+
+.customer-container th {
+  font-size: larger;
+}
+
+.customer-container tr,
+.customer-container th,
+.customer-container td {
+  height: 16px;
+  padding: 5px 16px;
+  width: 15%;
+}
+
+.customer-container td:nth-child(1) {
+  width: 15%;
+  text-align: center;
+}
+
+.customer-container th:nth-child(3),
+.customer-container td:nth-child(3) {
+  width: 40%;
+}
+
+.customer-container tbody tr {
+  height: 34px;
+  background: #16162310;
+}
+
+.customer-container tbody tr:nth-child(even) {
+  background: #16162330;
+}
+
+.customer-container tbody tr:hover {
+  background: #2a2a42;
+}
+
+.customer-add-form {
+  display: flex;
+  gap: 5px;
+  padding: 10px 10px;
+  width: 100%;
+  background: #2a2a42;
+}
+
+.customer-add-form input {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: medium;
+  color: #cacaca;
+  width: 100%;
+  height: 38px;
+  padding: 8px 5px;
+  border: 1px solid transparent;
+  border-radius: 2px;
+  outline: none;
+  background: #161623;
+  text-transform: capitalize;
+}
+
+.customer-add-form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 38px;
+  margin-left: 8px;
+  border-radius: 2px;
+  outline: none;
+}
+
+.customer-add-form button svg {
+  width: 24px;
+  height: 24px;
+}

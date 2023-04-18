@@ -1,0 +1,40 @@
+.payment-container {
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 0 16px;
+
+  /* border: 1px solid red; */
+}
+
+.payment-container table {
+  /* border-collapse: collapse; */
+  border: none;
+  width: 100%;
+  background: #2a2a42;
+}
+
+.payment-container thead {
+  background: #bbbbbb30;
+}
+
+.payment-container th {
+  font-size: larger;
+}
+
+.payment-container tr,
+.payment-container th,
+.payment-container td {
+  height: 16px;
+  padding: 5px 16px;
+  width: 15%;
+}
+
+.payment-container tbody tr {
+  height: 34px;
+  background: #16162310;
+}
+
+.payment-container th:nth-child(3),
+.payment-container td:nth-child(3) {
+  width: 40%;
+}
