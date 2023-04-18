@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.d51d2489.css",
-    "main.js": "/static/js/main.6cfd9fb3.js",
-    "static/media/account-circle.svg": "/static/media/account-circle.e1a8de82735de6317cf8057829f851e2.svg",
-    "index.html": "/index.html",
-    "main.d51d2489.css.map": "/static/css/main.d51d2489.css.map",
-    "main.6cfd9fb3.js.map": "/static/js/main.6cfd9fb3.js.map"
+    "main.css": "/reactjs-gcash-crm/static/css/main.d51d2489.css",
+    "main.js": "/reactjs-gcash-crm/static/js/main.6a879271.js",
+    "static/media/account-circle.svg": "/reactjs-gcash-crm/static/media/account-circle.e1a8de82735de6317cf8057829f851e2.svg",
+    "index.html": "/reactjs-gcash-crm/index.html",
+    "main.d51d2489.css.map": "/reactjs-gcash-crm/static/css/main.d51d2489.css.map",
+    "main.6a879271.js.map": "/reactjs-gcash-crm/static/js/main.6a879271.js.map"
   },
   "entrypoints": [
     "static/css/main.d51d2489.css",
-    "static/js/main.6cfd9fb3.js"
+    "static/js/main.6a879271.js"
   ]
 }
